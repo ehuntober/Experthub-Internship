@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+    padding: 15em 0 0 5em;
+}
+
+.container1 img{
+    width: 50%;
+}
+.container1 p{
+    font-size: 1rem;
+    color: #555;
+    margin-top: 1.5em;
+}
+h3, p{
+    font-size: 1.1rem;
+}
+.handles{
+    display: flex;
+    gap: 1.7rem;
+    margin-bottom: 0.85em;
+}
+.handles a{
+    color: #555;
+    font-size: 1.3rem;
+}
+.container1, .container2, .container3, .container4, .container5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.container3, .container4{
+    gap: 1.2rem;
+}
+.container5{
+    gap: 1.7rem;
+}

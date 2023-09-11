@@ -5,18 +5,68 @@ body {
  }
 
  .carousel-container{
-    background-color: red;
+    position: relative;
+    background-color: rgb(38, 219, 161);
     height: 300px;
     width: 70%;
     margin: 50px auto;
  }
+
+ .carousel-slide {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: inherit;
+    gap: 40px;
+    align-items: center;
+}
+ 
+
+
+ .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(3, 88, 61);
+    cursor: pointer;
+    background-color: black;
+   
+}
+
+.prev {
+
+    left: -2px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+}
+
+.image-box img{
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px black;
+}
+
+.next {
+    right: -2px;
+    background-color: white;
+    width: 10px;
+    border-radius: 50%;
+}
 
 
 
 
 .carousel-navigation {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .circle {

@@ -1,0 +1,175 @@
+
+
+.second2{
+  display: flex;
+  margin-left: 300px;
+  width: fit-content;
+}
+
+.second2 li.our-company a{
+  margin-left: 17px;
+  font-size: 15px;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(155,151,151);
+  text-align: center;
+}
+
+
+
+
+
+ul{
+  text-align: center;
+  list-style: none;
+}
+
+ul li{
+  position: relative;
+}
+
+ul li a{
+  display: block;
+  font-size: 16px;
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li ul.dropdown li{
+display: block;
+background-color: whitesmoke;
+margin: 2px 0px;
+padding: 10px 10px;
+text-align: left;
+width: 150px;
+}
+
+ul li ul.dropdown{
+  width: auto;
+  background:rgb(218, 218, 218);
+  position: absolute;
+  z-index: 999;
+  display: none;
+  
+
+}
+
+ul li a:hover{
+  background: rgb(211, 211, 211);
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+.dropdown2{
+  display: block;
+  margin-left: 150px;
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+.dropdown2 li a{
+  font-size: 16px;
+  color: rgb(105, 105, 105);
+  display: block;
+background-color: whitesmoke;
+margin: 2px 0px;
+padding: 10px 10px;
+text-align: left;
+width: 150px;
+  
+}
+
+.dropdown2:hover{
+  background: rgb(211, 211, 211);
+}
+
+.dropdown2:hover li a{
+  display: block;
+}
+.buju{
+  position: relative;
+}
+
+
+
+
+
+
+ul{
+  text-align: center;
+}
+
+ul li{
+  position: relative;
+}
+
+ul li a{
+  display: block;
+  font-size: 16px;
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li ul.dropdown li{
+display: block;
+background-color: whitesmoke;
+margin: 2px 0px;
+padding: 10px 10px;
+text-align: left;
+width: 150px;
+}
+
+ul li ul.dropdown{
+  width: auto;
+  background:rgb(218, 218, 218);
+  position: absolute;
+  z-index: 999;
+  display: none;
+  
+
+}
+
+ul li a:hover{
+  background: rgb(211, 211, 211);
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+.dropdown2{
+  display: block;
+  margin-left: 150px;
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+.dropdown2 li a{
+  font-size: 16px;
+  color: rgb(105, 105, 105);
+  display: block;
+background-color: whitesmoke;
+margin: 2px 0px;
+padding: 10px 10px;
+text-align: left;
+width: 150px;
+  
+}
+
+.dropdown2:hover{
+  background: rgb(211, 211, 211);
+}
+
+.dropdown2:hover li a{
+  display: block;
+}
+.buju{
+  position: relative;
+}
+
+

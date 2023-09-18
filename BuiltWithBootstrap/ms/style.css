@@ -1,0 +1,13 @@
+.containx{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.featuredx {
+    background-color:rgb(209, 209, 209)
+}
+
+.featuredx_first{
+    background-color: red;
+    padding-right: 30px;
+}

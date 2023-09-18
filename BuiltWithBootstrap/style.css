@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+.heropagex{
+    background-image: url('./images/NG-en-20230911-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logox{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* style="background-color: rgb(45,45,45);" */
+
+.hero-sec{
+     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); 
+   
+}
+
+.movie-container img{
+    width: 100%;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: red; */
+    /* border: solid rgba(221, 220, 220, 0.15); */
+    border-width: 2px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+
+
+  #mainx{
+    color: white;
+    background-color: rgb(45,45,45);
+
+  }
+
+  .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    /* width: 100%;
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 20px; */
+    /* justify-content: center; */
+
+}
+
+.content form{
+    width: 50%;
+    display: flex;
+
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    gap: 10px;
+
+}
+
+.content form input[type=text]{
+    width: 80%;
+    border-radius: 5px;
+    border: white solid 1px;
+    padding-left:30px;
+    font-size: 20px;
+    color: #36383b;
+    height: 56px;
+    background-color: transparent;
+}
+
+
+
+.content form input[type=submit]{
+    width: 40%;
+   background-color: red;
+    /*  color: #fff; */
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    height: 56px;
+
+}
+
+
+
+ /* styling for login page */
+
+ .containerx-cover{
+    background-color: red;
+    width: 100%;
+    height: 700px;
+    background-image: url('./images/NG-en-20230911-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+ }
+
+ .hero-secx{
+
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); 
+    height: inherit;
+   
+
+ }
+
+.centered-box{
+ background-color: rgba(0,0,0,.75);
+    width: 45%;
+    margin: 0 auto;
+    padding: 30px 50px ;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media( max-width: 600px){
+
+}
+
+
+
+
+  @media( max-width: 900px){
+   
+    .content form{
+        flex-direction: column;
+    }
+
+    .content form input[type=text]{
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    .content form input[type=submit]{
+        width: 100%;
+    }
+
+    .centered-box{
+        width: 100%;
+    }
+
+  }
+
+    /* .content{
+        flex-direction: column;
+    }
+*/
